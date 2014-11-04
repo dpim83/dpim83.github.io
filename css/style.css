@@ -83,7 +83,7 @@ div{
 }
 #container{
 	width: 100%;
-	height: 1000px;
+	height: 950px;
 }
 #left{
 	width: 50%;
@@ -177,4 +177,70 @@ div{
 	opacity: 0;
 	/*-webkit-transform: rotate(180deg);*/
 	-webkit-transition: all 0.25s ease-in-out;
+}
+
+.photocontent{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 600px;
+	position: relative;
+}
+
+.photo{
+	width: 20%;
+	float: left;
+}
+
+.photo:hover{
+	opacity: 0.7;
+}
+
+#footerleft{
+	margin-top: 100px;
+	margin-right: 10px;
+	color: rgba(255,255,255,0.5);
+	float: right;
+	font-size: 12px;
+	text-align: right;
+}
+
+#footerright{
+	margin-top: 100px;
+	margin-left: 10px;
+	color: rgba(130,49,142,0.5);
+	float: left;
+	font-size: 12px;
+}
+
+.home{
+	color:rgba(130,49,142,0.5);
+	position: fixed;
+	right: 10px;
+	top: 10px; 
+}
+
+.gaolenghome{
+	color:rgba(255,255,255,0.5);
+	position: fixed;
+	right: 10px;
+	top: 10px; 
+	z-index: 99;
+}
+
+#gaolenghome{
+	width: 26px;
+	height: 28px;
+	color:rgba(255,255,255,0.7);
+	position: fixed;
+	right: 10px;
+	top: 10px; 
+	z-index: 99;
+}
+
+#gaolenghome:hover{
+	color:rgba(255,255,255,0.5);
+}
+
+.fa-15x{
+	font-size: 1.5em;
 }
